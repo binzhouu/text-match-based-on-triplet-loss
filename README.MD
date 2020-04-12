@@ -9,4 +9,4 @@ confidence, similar_text, pred_label = tm.inference(text)
     return:  
        confidence:置信度 类型：float  
        similar_text:top1接近的text 类型：str  
-       pred_label:预测结果标签 类型：str 
+       pred_label:预测结果标签 类型：str
