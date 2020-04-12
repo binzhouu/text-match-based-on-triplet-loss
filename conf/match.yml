@@ -1,0 +1,4 @@
+batch_size: 64
+sampling_rate: 0.1
+num_classes_per_batch: 16
+alphabet_path: "saved_models/text_match_v1/data/alphabet.dset"

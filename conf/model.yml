@@ -1,0 +1,17 @@
+model_path: "saved_models/text_match_v1/text_match_v1"
+require_improvement: 15
+
+lr: 0.0003
+lr_decay: 0.05
+l2: 0.00000001
+momentum: 0
+epoch: 1000
+dropout: 0.5
+random_embedding: True
+
+char_emb_dim: 300
+word_emb_dim: 300
+
+model_num: 0
+model:
+  0: {encoder_type: "cnn_lstm", char_hidden_dim: 50, word_hidden_dim: 200, kernel_size: 3, padding: 1, num_layers: 1, num_output: 256}
