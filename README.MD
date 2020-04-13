@@ -1,3 +1,10 @@
+# Triplet Loss
+![triplet_loss](https://github.com/binzhouu/text-match-based-on-triplet-loss/tree/master/png)
+
+
+
+
+
 #### 模型初始化：
 tm = TextMatch(ip_port='localhost:50051')
 - 参数说明：  
