@@ -1,6 +1,5 @@
 # Triplet Loss
-![triplet_loss](https://github.com/binzhouu/text-match-based-on-triplet-loss/tree/master/png)
-
+![triplet_loss](png/triplet_loss.jpg)
 
 
 
