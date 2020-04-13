@@ -11,7 +11,7 @@
 
 ### 损失函数的pytorch实现：
 代码已做过gpu上训练的适配：  
-[triplet_loss](model/triplet_loss.py)
+[triplet_loss.py](model/triplet_loss.py)
 - 实现策略：  
 我们选择的是batch_hard策略，即在一个batch中，循环定义每一个样本为anchor，选择距离anchor最大的positive exmaple
 记为：d(a,p)；选择距离anchor最小negtive example，记为d(a,n)，我们的目标是通过训练尽可能缩小d(a,p)，增大d(a,n)；
