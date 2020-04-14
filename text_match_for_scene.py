@@ -21,7 +21,7 @@ from models.text_match_v1.utils.functions import normalize_word, predict_batchfy
 dset_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/alphabet.dset')
 represent_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/represent.dset')
 index_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/large.index')
-no_train_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/add/no_train.csv')
+no_train_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/add/add.csv')
 model_dir = os.path.join(ROOT_PATH, 'saved_models/text_match_v1/text_match_v1.model')
 user_dict = os.path.join(ROOT_PATH, 'lexicon/user_dict.txt')
 
@@ -45,7 +45,7 @@ class SceneMatch(object):
 		self.model.eval()
 		self.model.to(self.model.configs['device'])
 		# self.no_train_texts, self.no_train_represents, self.no_train_label_ids = get_represents(
-		# 	self.data, self.model, 'no_train', self.model.configs)
+		# 	self.data, self.model, 'add', self.model.configs)
 
 	def inference(self, text, text_list, label_list):
 		texts, ids = self.data.read_scene_text_list(text_list, label_list)

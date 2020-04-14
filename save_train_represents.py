@@ -20,7 +20,7 @@ dset_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/alphabet.dset')
 represent_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/represent.dset')
 model_dir = os.path.join(ROOT_PATH, 'saved_models/text_match_v1/text_match_v1.model')
 
-no_train_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/add/no_train.csv')
+no_train_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/add/add.csv')
 output_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data')
 
 mode = 0

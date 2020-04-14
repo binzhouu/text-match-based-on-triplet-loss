@@ -1,0 +1,2 @@
+word feature domain
+电视 <tool> home

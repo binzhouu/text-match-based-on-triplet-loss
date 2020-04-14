@@ -57,7 +57,7 @@ class Data(object):
 		labels = list(data_df.loc[:, 'target'])
 		return cls(ori_texts, labels)
 
-	def read_no_train(self, no_train_path, mode='no_train'):
+	def read_no_train(self, no_train_path, mode='add'):
 		no_train_df = pd.read_csv(no_train_path)
 		no_train_texts = list(no_train_df.loc[:, 'text'])
 		no_train_labels = list(no_train_df.loc[:, 'target'])

@@ -31,7 +31,7 @@ class Alphabet(object):
 
     def get_index(self, instance, mode='train'):
         # 当出现新当label时当处理方式:
-        if mode == 'no_train' and self.label and instance not in self.instance2index:
+        if mode == 'add' and self.label and instance not in self.instance2index:
             self.keep_growing = True
             self.next_index = len(self.instances) + 1
         try:

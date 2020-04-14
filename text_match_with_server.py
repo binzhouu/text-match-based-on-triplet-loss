@@ -32,7 +32,7 @@ synonyms_path = os.path.join(ROOT_PATH, 'configs/synonyms.yaml')
 
 represent_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/represent.dset')
 index_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/large.index')
-no_train_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/add/no_train.csv')
+no_train_path = os.path.join(ROOT_PATH, 'models/text_match_v1/data/add/add.csv')
 user_dict = os.path.join(ROOT_PATH, 'lexicon/user_dict.txt')
 glove_emb_path = os.path.join(ROOT_PATH, 'models/glove_emb/glove_ch_vec.pkl')
 # tf-idf模型的路径

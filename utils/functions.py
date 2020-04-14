@@ -36,7 +36,7 @@ def get_represents(data, model, name, config):
 		instance_texts, instance_ids = data.dev_texts, data.dev_ids
 	elif name == 'test':
 		instance_texts, instance_ids = data.test_texts, data.test_ids
-	elif name == 'no_train':
+	elif name == 'add':
 		instance_texts, instance_ids = data.no_train_texts, data.no_train_ids
 	elif name == 'scene':
 		instance_texts, instance_ids = data.scene_texts, data.scene_ids
