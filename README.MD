@@ -57,6 +57,11 @@
 
 ## 模型推理
 - text_match_with_server.py
+
+### 同义词替换
+- 增添同义词替换代码：  
+    推理过程中，若出现同义词，会导致词级别的word feature出现OOV，因而没办法计算出真实的语义特征，所以做了一个简单的同义词替换模块，解决此问题。
+
 ### 模型初始化：
 tm = TextMatch(ip_port='localhost:50051')
 - 参数说明：  
